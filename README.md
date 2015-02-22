@@ -107,7 +107,29 @@ read the console output! You can always google an error message to find a soluti
 
 ## 'Pulling' the latest code from Github
 
-    Coming soon!
+'Pulling' from github is how you update your code with the latest from github.  The key thing to know about pulling code is that it is *much more complicated* than you'd think.  It's easy to run into problems! If you run into problems, be sure to ask me (Max) for help.
+
+**NOTE:** I've been using git for about a year now, and I still run into problems with it, all the time!  It's not a hard tool to use, it's just that there is a lot more going on with it than first meets the eye!  Don't be intimidated, try stuff out and ask questions on google.
+
+To pull code from github, you need to navigate to the directory where your code is, and run:
+
+    git pull
+
+The basic process of updating your code can be seen below:
+
+```
+maxbook:basic_webpage Max$ git pull
+remote: Counting objects: 7, done.
+remote: Compressing objects: 100% (7/7), done.
+remote: Total 7 (delta 1), reused 4 (delta 0)
+Unpacking objects: 100% (7/7), done.
+From https://github.com/Collective-Coders/basic_webpage
+   8fd2c1b..8329b9f  master     -> origin/master
+maxbook:basic_webpage Max$
+```
+
+Expect to see A LOT of output in your terminal after you run this command.  Try to read it! If you don't read it, you probably won't be able to tell if it **succeeded** or **failed**!.If the pull failed, you'll probably see the word '*rejected*' or '*failed*' somewhere near the bottom of the output.
+
 
 ## Extra Stuff
 
@@ -122,18 +144,18 @@ git push                                // use this command to push all commits 
 git pull                                // use this command to pull the latest code from github
 ```
 
-## Some interesting articles and sites, when you are ready
+## Some useful articles and sites
 [The git Manual](http://git-scm.com/doc)
 
-[The BEST way to learn about the html5 canvas](http://diveintohtml5.info/canvas.html)
+[Learn about github markdown](https://guides.github.com/features/mastering-markdown/)
 
-[CSS Tricks, a great site for learning, well, CSS tricks](http://css-tricks.com/)
+[This article is the BEST way to learn about the html5 canvas](http://diveintohtml5.info/canvas.html)
+
+[CSS Tricks, a great site for learning more about CSS](http://css-tricks.com/)
 
 ## Links to popular frameworks!
 
 [AngularJS](https://angularjs.org/)
 
 [JQuery](http://jquery.com/)
-=======
-# Pulling from github
->>>>>>> 8329b9fd138b5495fa8ba07be4f1909c90492a15
+
