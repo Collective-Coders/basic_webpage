@@ -107,15 +107,15 @@ read the console output! You can always google an error message to find a soluti
 
 ## 'Pulling' the latest code from Github
 
-'Pulling' from github is how you update your code with the latest from github.  The key thing to know about pulling code is that it is *much more complicated* than you'd think.  It's easy to run into problems! If you run into problems, be sure to ask me (Max) for help.
+'Pulling' from github is how you update your code with the latest from github.  The key thing to know about pulling code is that it is much more *complicated* than you'd think.  It's easy to run into problems! If you run into any, be sure to ask for help.
 
-**NOTE:** I've been using git for about a year now, and I still run into problems with it, all the time!  It's not a hard tool to use, it's just that there is a lot more going on with it than first meets the eye!  Don't be intimidated, try stuff out and ask questions on google.
+**NOTE:** I've been using git for about a year now, and I still run into problems with it, all the time! Don't be intimidated! Try stuff out and ask questions on google.
 
 To pull code from github, you need to navigate to the directory where your code is, and run:
 
     git pull
 
-The basic process of updating your code can be seen below:
+When you run this command, expect to see something like the output below:
 
 ```
 maxbook:basic_webpage Max$ git pull
@@ -128,7 +128,7 @@ From https://github.com/Collective-Coders/basic_webpage
 maxbook:basic_webpage Max$
 ```
 
-Expect to see A LOT of output in your terminal after you run this command.  Try to read it! If you don't read it, you probably won't be able to tell if it **succeeded** or **failed**!.If the pull failed, you'll probably see the word '*rejected*' or '*failed*' somewhere near the bottom of the output.
+Expect to see A LOT of output in your terminal after you run this command.  Try to read it! If you don't read it, you probably won't be able to tell whether it **succeeded** or **failed**! If the pull failed, you'll probably see the word '*rejected*' or '*failed*' somewhere near the bottom of the output.
 
 
 ## Extra Stuff
