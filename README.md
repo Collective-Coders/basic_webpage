@@ -135,10 +135,39 @@ Expect to see A LOT of output in your terminal after you run this command.  Try 
 
 ### Some Useful Commands
 
+Below, I listed some of the most common commands you'll run with git. The more you use git, the better you will get at solving problems you run into! Being able to use git is a **super** important skill to have, and you'll build that skill every time you use git.
+
+    git init
+
+Use this command when you are first running git on a new folder of code. You'll usually
+only run this command once, in specific situations.
+
+    git status
+
+When you make changes to your project files, **git status** will show you a list of all files that have changes in them, and it will also show you which files you are staged for a commit.
+
+    git add
+
+Use this command, followed by the name of a file, to add files to your next commit.
+
+    git commit -m "Enter a message here"
+
+Use this command to make a commit.  The commit will include all the files you have added through **git add**
+
+    git push
+
+Once you have made a commit, you will need to **push** that commit to github.  Run this command to do so!  Once you run this command, you will have pushed some (or all) of your
+local changes to github!
+
+    git pull
+
+Use this command to update your code with the latest on github.  There are a lot of things
+that can go wrong when you try to **pull** from github.  When everything does work though, using this command will pull the latest code from github and **merge** the version of your local files with the version of the files on github.
+
 ```
 git init                                // use this command when first running git on a folder
 git status                              // use this to see which files you'll want to commit
-git add                                 // use this command to mark files to be sent to github
+git add                                 // use this command to mark files to be sent to github in the ne
 git commit -m "enter message here"      // use this command to prepare a group of files to be sent to github
 git push                                // use this command to push all commits to github
 git pull                                // use this command to pull the latest code from github
