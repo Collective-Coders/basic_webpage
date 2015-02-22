@@ -67,6 +67,4 @@ README.md	  index.html	  index.js	  styles.css
 After going through the commands above (the main one is the 'git clone ...' command) , you should now have a 
 copy of this project saved onto your computer.  You are now ready to work on this project, locally.
 
-# updating
-
-    This will be written at a later date
+# Pulling from github
