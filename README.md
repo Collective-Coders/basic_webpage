@@ -139,7 +139,7 @@ Below, I listed some of the most common commands you'll run with git. The more y
 
     git init
 
-Use this command when you are first running git on a new folder of code. You'll usually
+Use **git init** when you are first running git on a new folder of code. You'll usually
 only run this command once, in specific situations.
 
     git status
@@ -148,11 +148,11 @@ When you make changes to your project files, **git status** will show you a list
 
     git add
 
-Use this command, followed by the name of a file, to add files to your next commit.
+Use **git add**, followed by the name of a file, to add files to your next commit.  To add all of the files with changes in them, try running "**git add .**".
 
     git commit -m "Enter a message here"
 
-Use this command to make a commit.  The commit will include all the files you have added through **git add**
+Use **git commit** to make a commit.  Think of a commit as a set of files, with code changes in them, that you are going to publish to github.  The commit message is the name of the commit, as you'll see it in github. The commit will include all the files you have added through **git add**.
 
     git push
 
