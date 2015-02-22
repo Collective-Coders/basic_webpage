@@ -67,6 +67,7 @@ README.md	  index.html	  index.js	  styles.css
 After going through the commands above (the main one is the 'git clone ...' command) , you should now have a 
 copy of this project saved onto your computer.  You are now ready to work on this project, locally.
 
+<<<<<<< HEAD
 ## 'Pushing' your code on Github
 
 Let's say you just finished writing some new logic for your webpage!  Maybe you just added
@@ -133,3 +134,6 @@ git pull                                // use this command to pull the latest c
 [AngularJS](https://angularjs.org/)
 
 [JQuery](http://jquery.com/)
+=======
+# Pulling from github
+>>>>>>> 8329b9fd138b5495fa8ba07be4f1909c90492a15
